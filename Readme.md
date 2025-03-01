@@ -47,7 +47,8 @@ train_edm_ADDT/
 ### Images for README.md
 image/
 
-
+## Citation
+```
 @inproceedings{
 anonymous2025towards,
 title={Towards Understanding the Robustness of Diffusion-Based Purification: A Stochastic Perspective},
@@ -56,6 +57,6 @@ booktitle={The Thirteenth International Conference on Learning Representations},
 year={2025},
 url={https://openreview.net/forum?id=shqjOIK3SA}
 }
-
+```
 
 
