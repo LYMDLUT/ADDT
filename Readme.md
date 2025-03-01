@@ -33,6 +33,7 @@ RGBM
 ```
   
 # Directory Structure
+```
 running scripts are in the corresponding directory.
 ### All testing code(attack/clean evaluation for DDPM/DDIM/VPSDE/edm)
 test/
@@ -50,6 +51,7 @@ train_VPSDE_DDPMPP/
 train_edm_ADDT/
 ### Images for README.md
 image/
+```
 
 ## Citation
 ```
