@@ -48,3 +48,14 @@ train_edm_ADDT/
 image/
 
 
+@inproceedings{
+anonymous2025towards,
+title={Towards Understanding the Robustness of Diffusion-Based Purification: A Stochastic Perspective},
+author={Anonymous},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=shqjOIK3SA}
+}
+
+
+
