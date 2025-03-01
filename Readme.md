@@ -1,4 +1,4 @@
-# Towards Understanding the Robustness of Diffusion-Based Purification: A Stochastic Perspective
+# ADDT/Fixed AutoAttack
 Official code for Paper "[Towards Understanding the Robustness of Diffusion-Based Purification: A Stochastic Perspective](https://openreview.net/forum?id=shqjOIK3SA)"
 
 Comparison of attack trajectories under different evaluation settings.
