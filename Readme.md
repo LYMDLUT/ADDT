@@ -1,5 +1,5 @@
-# Introduction
-Official code for Paper "Towards Better Adversarial Purification via Adversarial Denoising Diffusion Training"
+# Towards Understanding the Robustness of Diffusion-Based Purification: A Stochastic Perspective
+Official code for Paper "Towards Understanding the Robustness of Diffusion-Based Purification: A Stochastic Perspective"
 
 Comparison of attack trajectories under different evaluation settings.
 
