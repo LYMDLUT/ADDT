@@ -1,0 +1,1 @@
+torchrun --standalone --nproc_per_node=7 train.py --outdir=training-runs --data=datasets/cifar10-32x32.zip --cond=0 --arch=ddpmpp  --batch=224 --transfer edm-cifar10-32x32-uncond-vp.pkl

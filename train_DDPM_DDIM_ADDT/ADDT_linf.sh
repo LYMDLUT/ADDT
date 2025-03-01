@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --num_processes 8 train_ADDT_linf.py --dataset_name="cifar10" --resolution=32 --center_crop --random_flip --output_dir="ddpm-cifar10-100e-ADDT_linf" --train_batch_size=32 --num_epochs=100  --checkpointing_steps=2000 --use_ema --model_config_name_or_path ../ddpm_ema_cifar10  --mixed_precision no
