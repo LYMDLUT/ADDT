@@ -47,5 +47,4 @@ train_edm_ADDT/
 ### Images for README.md
 image/
 
-# For opensource community and future research
-All ckpts will be released after the paper is accepted. And we will refactor the code for more convenient use.
+
