@@ -19,17 +19,18 @@ RGBM
 <img src="./image/gaussian_resample.png" width="300">
 
 # Requirements
-* python
+```
 * transformers
-* pytorch 2.0.1
+* pytorch>=2.0.1
 * numpy
 * tqdm
 * loguru
-* diffusers>=0.20.0.dev0
+* diffusers>=0.20.0
 * torchvision
 * click>=8.0
 * pillow>=8.3.1
 * scipy>=1.7.1
+```
   
 # Directory Structure
 running scripts are in the corresponding directory.
