@@ -56,9 +56,9 @@ image/
 ## Citation
 ```
 @inproceedings{
-anonymous2025towards,
+liu2025towards,
 title={Towards Understanding the Robustness of Diffusion-Based Purification: A Stochastic Perspective},
-author={Anonymous},
+author={Yiming Liu and Kezhao Liu and Yao Xiao and ZiYi Dong and Xiaogang Xu and Pengxu Wei and Liang Lin},
 booktitle={The Thirteenth International Conference on Learning Representations},
 year={2025},
 url={https://openreview.net/forum?id=shqjOIK3SA}
