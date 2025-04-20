@@ -20,13 +20,13 @@ RGBM
 
 # Requirements
 ```
-* transformers
+* transformers==4.33.1
 * pytorch>=2.0.1
+* torchvision
 * numpy
 * tqdm
 * loguru
 * diffusers==0.21.0
-* torchvision
 * click>=8.0
 * pillow>=8.3.1
 * scipy>=1.7.1
