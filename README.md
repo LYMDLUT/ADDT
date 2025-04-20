@@ -25,7 +25,7 @@ RGBM
 * numpy
 * tqdm
 * loguru
-* diffusers>=0.20.0
+* diffusers==0.21.0
 * torchvision
 * click>=8.0
 * pillow>=8.3.1
