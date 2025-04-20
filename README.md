@@ -53,6 +53,15 @@ train_edm_ADDT/
 image/
 ```
 
+# How to use Fixed AutoAttack
+
+### Installation
+
+```
+pip install git+https://github.com/fra31/auto-attack
+cd 
+```
+
 ## Citation
 ```
 @inproceedings{
