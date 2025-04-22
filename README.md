@@ -32,25 +32,28 @@ RGBM
 * scipy>=1.7.1
 ```
   
+
 # Directory Structure
 ```
-running scripts are in the corresponding directory.
-### All testing code(attack/clean evaluation for DDPM/DDIM/VPSDE/edm)
-test/
+This project contains code for model training, testing/evaluation, and related utilities. The directory structure and its contents are described below:
 
-├─ main_code: codes for attack/clean evaluation
+* `test/`: Contains all code and scripts related to model testing and evaluation.
+    * `main_code/`: Houses the core Python code for performing attack evaluations and clean performance evaluations on various diffusion models, including DDPM, DDIM, VPSDE, and EDM.
+    * `scripts_*/`: Provides shell scripts for running the evaluation tasks defined in `main_code/`. To execute a specific evaluation, navigate to the corresponding script directory and run the script using `sh`. For example, to run the $L_{\infty}$ attack test:
+        ```bash
+        cd test/script_attack
+        sh ddpm_run_attack_linf.sh
+        ```
 
-├─ scripts_*: scripts for running the code, just "cd" to the directory and run the script, e.g. "cd test/script_attack && sh ddpm_run_attack_linf.sh"
-### Code for calculating FID
-fid/
-### All training code for DDPM/DDIM/VPSDE/edm clean/ADDT
-train_DDPM_DDIM/
+* `fid/`: Contains the necessary code to calculate the Fréchet Inception Distance (FID) metric. FID is a common metric used for evaluating the quality of generated images, particularly from generative models.
 
-train_VPSDE_DDPMPP/
+* `train_DDPM_DDIM/`: Includes the code for training DDPM (Denoising Diffusion Probabilistic Models) and DDIM (Denoising Diffusion Implicit Models). Supports both standard ('clean') training setups and potentially setups involving ADDT (Adversarial Diffusion Distillation Training - *please verify/modify this expansion if ADDT stands for something else in your context*).
 
-train_edm_ADDT/
-### Images for README.md
-image/
+* `train_VPSDE_DDPMPP/`: Contains the code for training models based on VPSDE (Variance Preserving Stochastic Differential Equation) and DDPMPP (*please confirm the specific model or expansion if DDPMPP refers to something else*). Similarly supports standard ('clean') and potentially ADDT training variants.
+
+* `train_edm_ADDT/`: Contains the training code specifically for EDM (Elucidating Diffusion Models) integrated with the ADDT technique.
+
+* `image/`: Stores image files referenced within this `README.md` file.
 ```
 
 # How to use Fixed AutoAttack
