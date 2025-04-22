@@ -9,12 +9,13 @@ Comparison of attack trajectories under different evaluation settings.
 ![](./image/attack_illu.png "attack direction.")
 Losslandscape
 
-![](./image/main_img.png "Adversarial attack visualization.")
+Adversarial attack visualization:
+<img src="./image/main_img.png" width="300">
 
-Adversarial Denoising Diffusion Training (ADDT)
-
+Adversarial Denoising Diffusion Training (ADDT):
 <img src="./image/graph_loss.png" width="600">
 
+RBGM:
 <img src="./image/gaussian_resample.png" width="300">
 
 
