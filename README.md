@@ -47,9 +47,11 @@ This project contains code for model training, testing/evaluation, and related u
 
 * `fid/`: Contains the necessary code to calculate the Fréchet Inception Distance (FID) metric. FID is a common metric used for evaluating the quality of generated images, particularly from generative models.
 
-* `train_DDPM_DDIM/`: Includes the code for training DDPM (Denoising Diffusion Probabilistic Models) and DDIM (Denoising Diffusion Implicit Models). Supports both standard ('clean') training setups and potentially setups involving ADDT (Adversarial Diffusion Distillation Training - *please verify/modify this expansion if ADDT stands for something else in your context*).
+* `train_DDPM_DDIM/`: Includes the code for training DDPM (Denoising Diffusion Probabilistic Models) and DDIM (Denoising Diffusion Implicit Models).
+Supports both standard ('clean') training setups and potentially setups involving ADDT (Adversarial Diffusion Distillation Training.
 
-* `train_VPSDE_DDPMPP/`: Contains the code for training models based on VPSDE (Variance Preserving Stochastic Differential Equation) and DDPMPP (*please confirm the specific model or expansion if DDPMPP refers to something else*). Similarly supports standard ('clean') and potentially ADDT training variants.
+* `train_VPSDE_DDPMPP/`: Contains the code for training models based on VPSDE (Variance Preserving Stochastic Differential Equation) and DDPMPP.
+ Similarly supports standard ('clean') and potentially ADDT training variants.
 
 * `train_edm_ADDT/`: Contains the training code specifically for EDM (Elucidating Diffusion Models) integrated with the ADDT technique.
 
