@@ -13,25 +13,10 @@ Losslandscape
 
 Adversarial Denoising Diffusion Training (ADDT)
 
-![](./image/graph_loss.png "Adversarial Denoising Diffusion Training.")
-RGBM
+<img src="./image/graph_loss.png" width="600">
 
 <img src="./image/gaussian_resample.png" width="300">
 
-# Requirements
-```
-* transformers==4.33.1
-* pytorch>=2.0.1
-* torchvision
-* numpy
-* tqdm
-* loguru
-* diffusers==0.21.0
-* click>=8.0
-* pillow>=8.3.1
-* scipy>=1.7.1
-```
-  
 
 # Directory Structure
 ```
