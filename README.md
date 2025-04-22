@@ -5,9 +5,8 @@ Official code for ICLR2025 Paper "[Towards Understanding the Robustness of Diffu
 ##
 
 Comparison of attack trajectories under different evaluation settings.
-
-![](./image/attack_illu.png "attack direction.")
-Losslandscape
+Losslandscape:
+<img src="./image/attack_illu.png" width="300">
 
 Adversarial attack visualization:
 <img src="./image/main_img.png" width="300">
