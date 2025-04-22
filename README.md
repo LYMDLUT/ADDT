@@ -4,18 +4,26 @@ Official code for ICLR2025 Paper "[Towards Understanding the Robustness of Diffu
 
 ##
 
-Comparison of attack trajectories under different evaluation settings.
-Losslandscape:
-<img src="./image/attack_illu.png" width="300">
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div style="flex: 1; min-width: 300px;">
+    <p><strong>Loss landscape:</strong></p>
+    <img src="./image/attack_illu.png" width="300" style="display: block;">
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <p><strong>Adversarial attack visualization:</strong></p>
+    <img src="./image/main_img.png" width="300" style="display: block;">
+  </div>
+</div>
 
-Adversarial attack visualization:
-<img src="./image/main_img.png" width="300">
+<div style="margin-top: 20px;">
+  <p><strong>Adversarial Denoising Diffusion Training (ADDT):</strong></p>
+  <img src="./image/graph_loss.png" width="600" style="display: block;">
+</div>
 
-Adversarial Denoising Diffusion Training (ADDT):
-<img src="./image/graph_loss.png" width="600">
-
-RBGM:
-<img src="./image/gaussian_resample.png" width="300">
+<div style="margin-top: 20px;">
+  <p><strong>RBGM:</strong></p>
+  <img src="./image/gaussian_resample.png" width="300" style="display: block;">
+</div>
 
 
 # Directory Structure
